@@ -13,6 +13,7 @@ body{
     border-radius: 10px;
     border: 2px solid rgba(255,255,255, .2);
     backdrop-filter: blur(20px);
+    height: 100vh;
    
 }
 .container h1{
@@ -98,9 +99,11 @@ div form{
 .submit:hover{
     background-color: rgb(150, 154, 150);
 }
-@media only screen and (max-width: 414px) {
+
+@media only screen and (max-width: 500px) {
     .container {
         margin: 11% auto;
+
     }
 
     .container h1 {

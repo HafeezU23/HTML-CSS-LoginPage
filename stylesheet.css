@@ -98,3 +98,40 @@ div form{
 .submit:hover{
     background-color: rgb(150, 154, 150);
 }
+@media only screen and (max-width: 414px) {
+    .container {
+        margin: 11% auto;
+    }
+
+    .container h1 {
+        padding-top: 20px;
+    }
+
+    div form {
+        padding-bottom: 30px;
+    }
+
+    .header {
+        padding-top: 30px;
+    }
+
+    #username,
+    #password {
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .icon {
+        right: 20px;
+        transform: translateY(-104%);
+    }
+
+    .gen {
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .submit {
+        padding: 10px 30px;
+    }
+}
